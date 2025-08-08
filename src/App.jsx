@@ -3,6 +3,9 @@ import Header from "./Header.jsx";
 import Footer from "./Food.jsx";
 import Food from "./Footer.jsx";
 import Card from "./Card.jsx";
+import React from "react";
+
+import Button from './button/Button.jsx';
 
 function App() {
   return (
@@ -11,6 +14,7 @@ function App() {
       <Food />
       <Footer /> */}
       <Card />
+      <Button label="Submit" age={20} name="John" />
     </>
   );
 }
