@@ -1,10 +1,12 @@
 function Food() {
-  return (
-    <div>
-      <h2>Food Section</h2>
-      <p>This is where food-related content will go.</p>
-    </div>
-  );
+  const isLoggedIn = false;
+
+  if (isLoggedIn) {
+    return <h1>Welcome back!</h1>;
+  } else {
+    return <h1>Please log in.</h1>;
+  }
 }
+
 
 export default Food;
