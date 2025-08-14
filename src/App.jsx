@@ -6,11 +6,13 @@ import Card from "./Card.jsx";
 import React from "react";
 import List from "./List.jsx";
 
-import Button from './button/Button.jsx';
+import Button from "./button/Button.jsx";
 
 function App() {
-
-  const items = ["Milk", "Eggs", "Bread", "Butter"];
+  // const items = ["Milk", "Eggs", "Bread", "Butter"];
+  const handleClick = (name) => {
+    alert(`Hello, ${name}!`);
+  };
 
   return (
     <>
@@ -19,8 +21,9 @@ function App() {
       <Footer /> */}
       {/* <Card /> */}
       {/* <Button label="Submit" age={20} name="John" /> */}
-      <h1>My Food List</h1>
-      <List items={items} category="Groceries" />
+      {/* <h1>My Food List</h1>
+      <List items={items} category="Groceries" /> */}
+      <button onClick={() => handleClick("Mehedi")}>Greet Me</button>
     </>
   );
 }
