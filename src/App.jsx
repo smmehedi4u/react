@@ -1,11 +1,13 @@
+import React from "react";
 import TaskList from "./components/TaskList";
 import Header from "./Header.jsx";
 import Footer from "./Food.jsx";
 import Food from "./Food.jsx";
 import Card from "./Card.jsx";
-import React from "react";
+// import React from "react";
 import List from "./List.jsx";
 
+import Component from "./Component";
 import Button from "./button/Button.jsx";
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
       {/* <h1>My Food List</h1>
       <List items={items} category="Groceries" /> */}
       <button onClick={() => handleClick("Mehedi")}>Greet Me</button>
+       <Component />
     </>
   );
 }
