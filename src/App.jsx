@@ -9,6 +9,7 @@ import List from "./List.jsx";
 
 import Component from "./Component";
 import Button from "./button/Button.jsx";
+import ColorPicker from "./colorPicker.jsx";
 
 function App() {
   // const items = ["Milk", "Eggs", "Bread", "Butter"];
@@ -25,8 +26,9 @@ function App() {
       {/* <Button label="Submit" age={20} name="John" /> */}
       {/* <h1>My Food List</h1>
       <List items={items} category="Groceries" /> */}
-      <button onClick={() => handleClick("Mehedi")}>Greet Me</button>
-       <Component />
+      {/* <button onClick={() => handleClick("Mehedi")}>Greet Me</button> */}
+       {/* <Component /> */}
+       <ColorPicker />
     </>
   );
 }
