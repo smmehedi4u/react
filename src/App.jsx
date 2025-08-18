@@ -9,7 +9,8 @@ import List from "./List.jsx";
 
 import Component from "./Component";
 import Button from "./button/Button.jsx";
-import ColorPicker from "./colorPicker.jsx";
+// import ColorPicker from "./colorPicker.jsx";
+import Counter from "./update.jsx";
 
 function App() {
   // const items = ["Milk", "Eggs", "Bread", "Butter"];
@@ -28,7 +29,8 @@ function App() {
       <List items={items} category="Groceries" /> */}
       {/* <button onClick={() => handleClick("Mehedi")}>Greet Me</button> */}
        {/* <Component /> */}
-       <ColorPicker />
+       {/* <ColorPicker /> */}
+      <Counter />
     </>
   );
 }
