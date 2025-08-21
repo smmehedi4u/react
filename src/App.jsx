@@ -12,6 +12,7 @@ import Button from "./button/Button.jsx";
 // import ColorPicker from "./colorPicker.jsx";
 import Counter from "./update.jsx";
 import Object from "./Object.jsx";
+import Array from "./Array.jsx";
 
 function App() {
   // const items = ["Milk", "Eggs", "Bread", "Butter"];
@@ -32,7 +33,8 @@ function App() {
        {/* <Component /> */}
        {/* <ColorPicker /> */}
       {/* <Counter /> */}
-      <Object />
+      {/* <Object /> */}
+      <Array />
     </>
   );
 }
