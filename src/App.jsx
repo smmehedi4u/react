@@ -14,6 +14,7 @@ import Counter from "./update.jsx";
 import Object from "./Object.jsx";
 import Array from "./Array.jsx";
 import UpdateArray from "./UpdateArray.jsx";
+import Todo from "./Todo.jsx";
 
 function App() {
   // const items = ["Milk", "Eggs", "Bread", "Butter"];
@@ -36,7 +37,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Object /> */}
       {/* <Array /> */}
-      <UpdateArray />
+      {/* <UpdateArray /> */}
+      <Todo/>
     </>
   );
 }
