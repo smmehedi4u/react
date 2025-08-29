@@ -14,7 +14,8 @@ import Counter from "./update.jsx";
 import Object from "./Object.jsx";
 import Array from "./Array.jsx";
 import UpdateArray from "./UpdateArray.jsx";
-import Todo from "./Todo.jsx";
+// import Todo from "./Todo.jsx";
+import UseEffect from "./UseEffect.jsx";
 
 function App() {
   // const items = ["Milk", "Eggs", "Bread", "Butter"];
@@ -38,7 +39,8 @@ function App() {
       {/* <Object /> */}
       {/* <Array /> */}
       {/* <UpdateArray /> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <UseEffect />
     </>
   );
 }
