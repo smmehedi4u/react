@@ -16,7 +16,8 @@ import Array from "./Array.jsx";
 import UpdateArray from "./UpdateArray.jsx";
 // import Todo from "./Todo.jsx";
 import UseEffect from "./UseEffect.jsx";
-import DigitalClock from "./DigitalClock.jsx";
+// import DigitalClock from "./DigitalClock.jsx";
+import ComponentA from "./ComponentA.jsx";
 
 function App() {
   // const items = ["Milk", "Eggs", "Bread", "Butter"];
@@ -42,7 +43,8 @@ function App() {
       {/* <UpdateArray /> */}
       {/* <Todo/> */}
       {/* <UseEffect /> */}
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+      <ComponentA />
     </>
   );
 }
