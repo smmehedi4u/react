@@ -18,7 +18,8 @@ import UpdateArray from "./UpdateArray.jsx";
 import UseEffect from "./UseEffect.jsx";
 // import DigitalClock from "./DigitalClock.jsx";
 // import ComponentA from "./ComponentA.jsx";
-import ComponentB from "./ComponentB.jsx";
+// import ComponentB from "./ComponentB.jsx";
+import StopWatch from "./StopWatch.jsx";
 
 function App() {
   // const items = ["Milk", "Eggs", "Bread", "Butter"];
@@ -46,7 +47,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <DigitalClock /> */}
       {/* <ComponentA /> */}
-      <ComponentB />
+      {/* <ComponentB /> */}
+      <StopWatch />
     </>
   );
 }
